@@ -1,0 +1,10 @@
+[2022-07-19 12:25:59] error: [test] This is an error
+[2022-07-19 13:49:43] error: [test] This is an error
+[2022-07-19 13:52:47] error: [login] Failed to login to Discord
+[2022-07-19 13:53:03] error: [login] Failed to login to Discord
+[2022-07-19 13:53:24] error: [login] Failed to login to Discord
+[2022-07-19 13:53:41] error: [login] Failed to login to Discord
+[2022-07-19 13:55:16] error: [login] Failed to login to Discord
+[2022-07-19 13:55:24] error: [login] Failed to login to Discord
+[2022-07-19 13:58:46] error: [login] Error [DisallowedIntents]: Privileged intent provided is not enabled or whitelisted.
+[2022-07-26 14:44:45] error: [login] TypeError: Cannot read properties of undefined (reading 'toJSON')
