@@ -132,3 +132,197 @@
 [2022-07-26 15:07:42] info: [login] Successfully updated commands!
 [2022-07-26 15:08:14] info: [login] Logged in as Cruelty Supreme#5218!
 [2022-07-26 15:08:14] info: [login] Successfully updated commands!
+[2022-07-26 17:45:05] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:45:05] error: [loadCommands] No commands loaded!
+[2022-07-26 17:45:13] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:45:13] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:49:08] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:49:08] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:50:37] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:50:37] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:50:58] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:50:58] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:51:07] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:51:07] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:12:33] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 18:12:33] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/contexts'
+[2022-07-26 18:12:33] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:19:19] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:19:19] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/contexts'
+[2022-07-26 18:19:19] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:19:55] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:19:55] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:19:55] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:21:44] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/prod/commands'
+[2022-07-26 18:21:44] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:21:44] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:21:56] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:21:56] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:21:56] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:22:46] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:22:46] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:23:04] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:24:18] error: [init] Failed to load commands!
+[2022-07-26 18:24:44] error: [init] Failed to load commands!
+[2022-07-26 18:24:53] error: [init] Failed to load commands!
+[2022-07-26 18:25:02] error: [init] Failed to load commands!
+[2022-07-26 18:25:40] error: [init] Failed to load commands!
+[2022-07-26 18:25:57] error: [init] Failed to load commands!
+[2022-07-26 18:26:07] error: [init] Failed to load commands!
+[2022-07-26 18:26:24] error: [init] Failed to load commands!
+[2022-07-26 18:26:37] error: [init] Failed to load commands!
+[2022-07-26 18:26:56] error: [init] Failed to load commands!
+[2022-07-26 18:27:10] error: [init] Failed to load commands!
+[2022-07-26 18:27:44] error: [loadCommands] TSError: ⨯ Unable to compile TypeScript:
+src/commands/ping.ts:2:25 - error TS1149: File name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/command.ts' differs from already included file name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Command.ts' only in casing.
+  The file is in the program because:
+    Imported via '../interfaces/Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/loadCommands.ts'
+    Imported via './Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Bot.ts'
+    Imported via '../interfaces/command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/commands/ping.ts'
+
+2 import { Command } from '../interfaces/command';
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/utils/loadCommands.ts:3:25
+    3 import { Command } from '../interfaces/Command';
+                              ~~~~~~~~~~~~~~~~~~~~~~~
+    File is included via import here.
+  src/interfaces/Bot.ts:2:25
+    2 import { Command } from './Command';
+                              ~~~~~~~~~~~
+    File is included via import here.
+
+[2022-07-26 18:27:44] error: [init] Failed to load commands!
+[2022-07-26 18:28:26] error: [loadCommands] TSError: ⨯ Unable to compile TypeScript:
+src/commands/ping.ts:2:25 - error TS1149: File name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/command.ts' differs from already included file name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Command.ts' only in casing.
+  The file is in the program because:
+    Imported via '../interfaces/Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/loadCommands.ts'
+    Imported via './Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Bot.ts'
+    Imported via '../interfaces/command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/commands/ping.ts'
+
+2 import { Command } from '../interfaces/command';
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/utils/loadCommands.ts:3:25
+    3 import { Command } from '../interfaces/Command';
+                              ~~~~~~~~~~~~~~~~~~~~~~~
+    File is included via import here.
+  src/interfaces/Bot.ts:2:25
+    2 import { Command } from './Command';
+                              ~~~~~~~~~~~
+    File is included via import here.
+
+[2022-07-26 18:28:26] error: [init] Failed to load commands!
+[2022-07-26 18:31:24] error: [init] Failed to load commands!
+[2022-07-26 18:31:41] error: [init] Failed to load commands!
+[2022-07-26 18:31:57] error: [init] Failed to load commands!
+[2022-07-26 18:32:32] error: [init] Failed to load commands!
+[2022-07-26 18:32:42] error: [init] Failed to load commands!
+[2022-07-26 18:32:54] error: [init] Failed to load commands!
+[2022-07-26 18:33:18] error: [init] Failed to load commands!
+[2022-07-26 18:33:35] error: [init] Failed to load commands!
+[2022-07-26 18:33:41] error: [init] Failed to load commands!
+[2022-07-26 18:34:22] error: [init] Failed to load commands!
+[2022-07-26 18:34:35] error: [init] Failed to load commands!
+[2022-07-26 18:35:55] error: [init] Failed to load commands!
+[2022-07-26 18:36:13] debug: [init] Running in development mode!
+[2022-07-26 18:36:13] debug: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:36:41] info: [init] Running in development mode!
+[2022-07-26 18:36:41] debug: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:37:06] info: [init] Running in development mode!
+[2022-07-26 18:37:06] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:38:23] info: [init] Running in development mode!
+[2022-07-26 18:38:23] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:38:28] info: [init] Running in development mode!
+[2022-07-26 18:38:28] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:40:28] error: [init] Failed to load commands!
+[2022-07-26 18:41:19] error: [init] Failed to load contexts!
+[2022-07-26 18:41:32] info: [init] Running in development mode!
+[2022-07-26 18:41:32] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:43:48] info: [init] Running in development mode!
+[2022-07-26 18:43:48] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:47:13] info: [init] Running in development mode!
+[2022-07-26 18:47:13] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:47:48] info: [init] Running in development mode!
+[2022-07-26 18:47:48] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:49:10] info: [init] Running in development mode!
+[2022-07-26 18:49:10] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:49:58] info: [init] Running in development mode!
+[2022-07-26 18:49:58] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:50:24] info: [init] Running in development mode!
+[2022-07-26 18:50:24] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:50:53] info: [init] Running in development mode!
+[2022-07-26 18:50:53] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:51:05] info: [init] Running in development mode!
+[2022-07-26 18:51:05] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:52:08] info: [init] Running in development mode!
+[2022-07-26 18:52:08] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:52:22] info: [init] Running in development mode!
+[2022-07-26 18:52:22] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:52:46] info: [init] Running in development mode!
+[2022-07-26 18:52:46] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:52:53] info: [init] Running in development mode!
+[2022-07-26 18:52:53] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:53:15] info: [init] Running in development mode!
+[2022-07-26 18:53:15] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:56:56] info: [init] Running in development mode!
+[2022-07-26 18:56:56] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:58:36] info: [init] Running in development mode!
+[2022-07-26 18:58:36] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 18:59:15] info: [init] Running in development mode!
+[2022-07-26 18:59:15] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:08:51] info: [init] Running in development mode!
+[2022-07-26 19:08:51] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:12:42] info: [init] Running in development mode!
+[2022-07-26 19:12:42] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:13:19] info: [init] Running in development mode!
+[2022-07-26 19:13:19] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:17:48] info: [init] Running in development mode!
+[2022-07-26 19:17:48] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:19:50] info: [init] Running in development mode!
+[2022-07-26 19:19:50] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:21:06] info: [init] Running in development mode!
+[2022-07-26 19:21:06] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:21:42] info: [init] Running in development mode!
+[2022-07-26 19:21:42] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:21:49] info: [init] Running in development mode!
+[2022-07-26 19:21:49] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:22:25] info: [init] Running in development mode!
+[2022-07-26 19:22:25] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:23:21] info: [init] Running in development mode!
+[2022-07-26 19:23:21] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:23:43] info: [init] Running in development mode!
+[2022-07-26 19:23:43] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:24:23] info: [init] Running in development mode!
+[2022-07-26 19:24:23] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:24:43] info: [init] Running in development mode!
+[2022-07-26 19:24:43] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:24:54] info: [init] Running in development mode!
+[2022-07-26 19:24:54] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:25:38] info: [init] Running in development mode!
+[2022-07-26 19:25:38] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:25:38] error: [registerCommands] DiscordAPIError[50035]: Invalid Form Body
+application_id[NUMBER_TYPE_COERCE]: Value "missing token" is not snowflake.
+[2022-07-26 19:25:38] error: [init] Failed to register commands!
+[2022-07-26 19:26:14] info: [init] Running in development mode!
+[2022-07-26 19:26:14] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:26:14] error: [registerCommands] DiscordAPIError[50035]: Invalid Form Body
+application_id[NUMBER_TYPE_COERCE]: Value "missing token" is not snowflake.
+[2022-07-26 19:26:14] error: [init] Failed to register commands!
+[2022-07-26 19:29:17] info: [init] Running in development mode!
+[2022-07-26 19:29:17] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:29:50] info: [init] Logging into Discord...
+[2022-07-26 19:29:50] info: [init] Running in development mode!
+[2022-07-26 19:29:50] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:30:30] info: [init] Logging into Discord...
+[2022-07-26 19:30:30] info: [init] Running in development mode!
+[2022-07-26 19:30:30] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:33:10] info: [init] Logging into Discord...
+[2022-07-26 19:33:11] info: [init] Running in development mode!
+[2022-07-26 19:33:11] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:34:08] info: [init] Logging into Discord...
+[2022-07-26 19:34:08] info: [init] Running in development mode!
+[2022-07-26 19:34:08] info: [registerCommands] Registering commands in home guild!
+[2022-07-26 19:37:07] info: [init] Logging into Discord...
+[2022-07-26 19:37:07] info: [init] Running in development mode!
+[2022-07-26 19:37:07] info: [registerCommands] Registering commands in home guild!

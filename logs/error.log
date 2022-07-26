@@ -8,3 +8,104 @@
 [2022-07-19 13:55:24] error: [login] Failed to login to Discord
 [2022-07-19 13:58:46] error: [login] Error [DisallowedIntents]: Privileged intent provided is not enabled or whitelisted.
 [2022-07-26 14:44:45] error: [login] TypeError: Cannot read properties of undefined (reading 'toJSON')
+[2022-07-26 17:45:05] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:45:05] error: [loadCommands] No commands loaded!
+[2022-07-26 17:45:13] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:45:13] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:49:08] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:49:08] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:50:37] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:50:37] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:50:58] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:50:58] error: [loadCommands] Failed to load commands!
+[2022-07-26 17:51:07] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 17:51:07] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:12:33] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/commands'
+[2022-07-26 18:12:33] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/contexts'
+[2022-07-26 18:12:33] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:19:19] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:19:19] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/contexts'
+[2022-07-26 18:19:19] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:19:55] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:19:55] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:19:55] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:21:44] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/prod/commands'
+[2022-07-26 18:21:44] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:21:44] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:21:56] error: [loadCommands] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/commands'
+[2022-07-26 18:21:56] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:21:56] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:22:46] error: [loadContexts] Error: ENOENT: no such file or directory, scandir '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/contexts'
+[2022-07-26 18:22:46] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:23:04] error: [loadCommands] Failed to load commands!
+[2022-07-26 18:24:18] error: [init] Failed to load commands!
+[2022-07-26 18:24:44] error: [init] Failed to load commands!
+[2022-07-26 18:24:53] error: [init] Failed to load commands!
+[2022-07-26 18:25:02] error: [init] Failed to load commands!
+[2022-07-26 18:25:40] error: [init] Failed to load commands!
+[2022-07-26 18:25:57] error: [init] Failed to load commands!
+[2022-07-26 18:26:07] error: [init] Failed to load commands!
+[2022-07-26 18:26:24] error: [init] Failed to load commands!
+[2022-07-26 18:26:37] error: [init] Failed to load commands!
+[2022-07-26 18:26:56] error: [init] Failed to load commands!
+[2022-07-26 18:27:10] error: [init] Failed to load commands!
+[2022-07-26 18:27:44] error: [loadCommands] TSError: ⨯ Unable to compile TypeScript:
+src/commands/ping.ts:2:25 - error TS1149: File name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/command.ts' differs from already included file name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Command.ts' only in casing.
+  The file is in the program because:
+    Imported via '../interfaces/Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/loadCommands.ts'
+    Imported via './Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Bot.ts'
+    Imported via '../interfaces/command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/commands/ping.ts'
+
+2 import { Command } from '../interfaces/command';
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/utils/loadCommands.ts:3:25
+    3 import { Command } from '../interfaces/Command';
+                              ~~~~~~~~~~~~~~~~~~~~~~~
+    File is included via import here.
+  src/interfaces/Bot.ts:2:25
+    2 import { Command } from './Command';
+                              ~~~~~~~~~~~
+    File is included via import here.
+
+[2022-07-26 18:27:44] error: [init] Failed to load commands!
+[2022-07-26 18:28:26] error: [loadCommands] TSError: ⨯ Unable to compile TypeScript:
+src/commands/ping.ts:2:25 - error TS1149: File name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/command.ts' differs from already included file name '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Command.ts' only in casing.
+  The file is in the program because:
+    Imported via '../interfaces/Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/utils/loadCommands.ts'
+    Imported via './Command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/interfaces/Bot.ts'
+    Imported via '../interfaces/command' from file '/Users/nackermann/Documents/code/discord bots/cruelty-supreme-bot/src/commands/ping.ts'
+
+2 import { Command } from '../interfaces/command';
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/utils/loadCommands.ts:3:25
+    3 import { Command } from '../interfaces/Command';
+                              ~~~~~~~~~~~~~~~~~~~~~~~
+    File is included via import here.
+  src/interfaces/Bot.ts:2:25
+    2 import { Command } from './Command';
+                              ~~~~~~~~~~~
+    File is included via import here.
+
+[2022-07-26 18:28:26] error: [init] Failed to load commands!
+[2022-07-26 18:31:24] error: [init] Failed to load commands!
+[2022-07-26 18:31:41] error: [init] Failed to load commands!
+[2022-07-26 18:31:57] error: [init] Failed to load commands!
+[2022-07-26 18:32:32] error: [init] Failed to load commands!
+[2022-07-26 18:32:42] error: [init] Failed to load commands!
+[2022-07-26 18:32:54] error: [init] Failed to load commands!
+[2022-07-26 18:33:18] error: [init] Failed to load commands!
+[2022-07-26 18:33:35] error: [init] Failed to load commands!
+[2022-07-26 18:33:41] error: [init] Failed to load commands!
+[2022-07-26 18:34:22] error: [init] Failed to load commands!
+[2022-07-26 18:34:35] error: [init] Failed to load commands!
+[2022-07-26 18:35:55] error: [init] Failed to load commands!
+[2022-07-26 18:40:28] error: [init] Failed to load commands!
+[2022-07-26 18:41:19] error: [init] Failed to load contexts!
+[2022-07-26 19:25:38] error: [registerCommands] DiscordAPIError[50035]: Invalid Form Body
+application_id[NUMBER_TYPE_COERCE]: Value "missing token" is not snowflake.
+[2022-07-26 19:25:38] error: [init] Failed to register commands!
+[2022-07-26 19:26:14] error: [registerCommands] DiscordAPIError[50035]: Invalid Form Body
+application_id[NUMBER_TYPE_COERCE]: Value "missing token" is not snowflake.
+[2022-07-26 19:26:14] error: [init] Failed to register commands!
