@@ -52,7 +52,7 @@ export const registerCommands = async (bot: Bot): Promise<boolean> => {
             });
             await rest.put(
                 Routes.applicationGuildCommands(
-                    bot.user?.id || 'missing token',
+                    process.env.CLIENT_ID as string,
                     process.env.DISCORD_GUILD as string
                 ),
                 { body: commandData }
