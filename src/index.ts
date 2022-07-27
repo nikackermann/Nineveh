@@ -18,14 +18,6 @@ const init = async () => {
         intents: Intents,
     }) as Bot;
 
-    try {
-        logger.info('Logging into Discord...', { service: 'init' });
-        await client.login(process.env.DISCORD_TOKEN as string);
-    } catch (err) {
-        logger.error(`${err}`, { service: 'init' });
-        process.exit(1);
-    }
-
     /**
      * @description Loads all commands.
      */
@@ -48,8 +40,15 @@ const init = async () => {
             return;
         }
     }
+
     handleEvents(client);
 
-    client.user?.setActivity('Lost Ark', { type: ActivityType.Playing });
+    try {
+        logger.info('Logging into Discord...', { service: 'init' });
+        await client.login(process.env.DISCORD_TOKEN as string);
+    } catch (err) {
+        logger.error(`${err}`, { service: 'init' });
+        process.exit(1);
+    }
 };
 init();
