@@ -1,1 +1,1 @@
-# cruelty-supreme-bot
+# Nineveh Bot
