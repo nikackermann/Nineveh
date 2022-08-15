@@ -10,14 +10,22 @@ export const embed = new EmbedBuilder()
 
 export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
     new SelectMenuBuilder()
-        .setCustomId('role-class')
+        .setCustomId('select-role')
         .setPlaceholder('Select class channels')
         .setMinValues(0)
-        .setMaxValues(23)
+        .setMaxValues(22) //23
         .addOptions([
             {
+                label: 'Arcanist',
+                value: 'Arcanist Chat',
+                emoji: {
+                    name: 'arcana',
+                    id: '967477420351426560',
+                },
+            },
+            {
                 label: 'Artillerist',
-                value: 'artillerist',
+                value: 'Artillerist Chat',
                 emoji: {
                     name: 'artillerist',
                     id: '967477419923603518',
@@ -25,31 +33,23 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Artist',
-                value: 'artist',
+                value: 'Artist Chat',
                 emoji: {
                     name: 'Artist',
                     id: '930687087542431784',
                 },
             },
-            {
-                label: 'Aeromancer',
-                value: 'aeromancer',
-                emoji: {
-                    name: 'Aeromancer',
-                    id: '994142659046281306',
-                },
-            },
-            {
-                label: 'Arcanist',
-                value: 'arcanist',
-                emoji: {
-                    name: 'arcana',
-                    id: '967477420351426560',
-                },
-            },
+            // {
+            //     label: 'Aeromancer',
+            //     value: 'Aeromancer Chat',
+            //     emoji: {
+            //         name: 'Aeromancer',
+            //         id: '994142659046281306',
+            //     },
+            // },
             {
                 label: 'Bard',
-                value: 'bard',
+                value: 'Bard Chat',
                 emoji: {
                     name: 'bard',
                     id: '967477420422754314',
@@ -57,7 +57,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Berserker',
-                value: 'berserker',
+                value: 'Berserker Chat',
                 emoji: {
                     name: 'berserker',
                     id: '967477420393386055',
@@ -65,7 +65,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Deadeye',
-                value: 'deadeye',
+                value: 'Deadeye Chat',
                 emoji: {
                     name: 'Deadeye',
                     id: '905274709107687474',
@@ -73,7 +73,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Deathblade',
-                value: 'deathblade',
+                value: 'Deathblade Chat',
                 emoji: {
                     name: 'Deathblade',
                     id: '905274708935737384',
@@ -81,15 +81,15 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Destroyer',
-                value: 'destroyer',
+                value: 'Destroyer Chat',
                 emoji: {
                     name: 'Destroyer',
                     id: '905274708696637440',
                 },
             },
             {
-                label: 'Glavier',
-                value: 'glavier',
+                label: 'Glaivier',
+                value: 'Glaivier Chat',
                 emoji: {
                     name: 'Lancemaster',
                     id: '948965345568358470',
@@ -97,7 +97,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Gunlancer',
-                value: 'gunlancer',
+                value: 'Gunlancer Chat',
                 emoji: {
                     name: 'Gunlancer',
                     id: '905274709904597002',
@@ -105,7 +105,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Gunslinger',
-                value: 'gunslinger',
+                value: 'Gunslinger Chat',
                 emoji: {
                     name: 'Gunslinger',
                     id: '905274708780535808',
@@ -113,7 +113,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Paladin',
-                value: 'paladin',
+                value: 'Paladin Chat',
                 emoji: {
                     name: 'Paladin',
                     id: '905274708658905099',
@@ -121,7 +121,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Reaper',
-                value: 'reaper',
+                value: 'Reaper Chat',
                 emoji: {
                     name: 'Reaper',
                     id: '905274709153812540',
@@ -129,7 +129,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Machinist',
-                value: 'machinist',
+                value: 'Machinist Chat',
                 emoji: {
                     name: 'scouter',
                     id: '967477420447907870',
@@ -137,7 +137,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Scrapper',
-                value: 'scrapper',
+                value: 'Scrapper Chat',
                 emoji: {
                     name: 'scrapper',
                     id: '967477420447907870',
@@ -145,7 +145,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Shadowhunter',
-                value: 'shadowhunter',
+                value: 'Shadowhunter Chat',
                 emoji: {
                     name: 'shadowhunter',
                     id: '967477420569550919',
@@ -153,7 +153,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Sharpshooter',
-                value: 'sharpshooter',
+                value: 'Sharpshooter Chat',
                 emoji: {
                     name: 'sharpshooter',
                     id: '967477420640854086',
@@ -161,7 +161,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Sorceress',
-                value: 'sorceress',
+                value: 'Sorceress Chat',
                 emoji: {
                     name: 'sorceress',
                     id: '967477420569534474',
@@ -169,7 +169,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Soulfist',
-                value: 'soulfist',
+                value: 'Soulfist Chat',
                 emoji: {
                     name: 'soulfist',
                     id: '967477420515004446',
@@ -177,7 +177,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Striker',
-                value: 'striker',
+                value: 'Striker Chat',
                 emoji: {
                     name: 'striker',
                     id: '967477420758278174',
@@ -185,7 +185,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Summoner',
-                value: 'summoner',
+                value: 'Summoner Chat',
                 emoji: {
                     name: 'Summoner',
                     id: '905274709929762867',
@@ -193,7 +193,7 @@ export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
             },
             {
                 label: 'Wardancer',
-                value: 'wardancer',
+                value: 'Wardancer Chat',
                 emoji: {
                     name: 'Wardancer',
                     id: '905274709615194112',

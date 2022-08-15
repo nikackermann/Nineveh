@@ -15,6 +15,10 @@ export const interactionCreate = async (
         }
         // if interaction in a select menu, run it
         if (interaction.isSelectMenu()) {
+            const target = bot.selectMenus.find(
+                (el) => el.name === interaction.customId
+            );
+            await target?.run(bot, interaction);
         }
         // if interacton is a button, run it
         if (interaction.isButton()) {

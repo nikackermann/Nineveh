@@ -1,8 +1,8 @@
 import { AttachmentBuilder, SlashCommandBuilder } from 'discord.js';
-import { Command } from '../interfaces/Command';
-import { embed, row } from '../embeds/roleClassEmbed';
+import { Command } from '../../interfaces/Command';
+import { embed, row } from '../../embeds/roleClassEmbed';
 
-export const roleClass: Command = {
+export const classRole: Command = {
     data: new SlashCommandBuilder()
         .setName('role-class')
         .setDescription('Creates role selection embed for class roles'),

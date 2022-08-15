@@ -1,6 +1,9 @@
-import { SelectMenuInteraction, SelectMenuBuilder } from 'discord.js';
+import { SelectMenuInteraction } from 'discord.js';
+import { RateLimiter } from 'discord.js-rate-limiter';
+import { Bot } from './Bot';
 
 export interface Select {
-    data: SelectMenuBuilder;
-    run: (interaction: SelectMenuInteraction) => Promise<void>;
+    name: string;
+    cooldown: RateLimiter;
+    run: (bot: Bot, interaction: SelectMenuInteraction) => Promise<void>;
 }

@@ -8,6 +8,7 @@ import { loadContexts } from './utils/loadContexts';
 import { registerCommands } from './utils/registerCommands';
 import { handleEvents } from './events/_handleEvents';
 import { interactionCreate } from './events/interactionCreate';
+import { loadSelects } from './utils/loadSelects';
 dotenv.config();
 
 /**
@@ -23,9 +24,11 @@ const init = async () => {
      */
     const commands = await loadCommands(client);
     const contexts = await loadContexts(client);
+    const selectMenus = await loadSelects(client);
 
     client.commands = commands;
     client.contexts = contexts;
+    client.selectMenus = selectMenus;
 
     if (!commands.length) {
         logger.error('Failed to load commands!', { service: 'init' });
