@@ -2,7 +2,7 @@ import { GuildMemberRoleManager, Role } from 'discord.js';
 import { RateLimiter } from 'discord.js-rate-limiter';
 import { Select } from '../interfaces/Select';
 
-export const selectMenuRole: Select = {
+export const selectRole: Select = {
     name: 'select-role',
     cooldown: new RateLimiter(1, 5000), // need to setup a ratelimiter class
     run: async (Bot, interaction) => {
@@ -22,6 +22,8 @@ export const selectMenuRole: Select = {
             const hasRole = componentValues.filter((item: any) =>
                 memberRoles.includes(item.value)
             );
+            console.log('hasRole', hasRole);
+            // TODOD: if values is empty, check member roles and remove members existing chat roles.
             if (hasRole.length > 0) {
                 for (const id of hasRole) {
                     const role = await member.guild.roles.cache.find(

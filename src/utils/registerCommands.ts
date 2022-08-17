@@ -1,5 +1,8 @@
 import { REST } from '@discordjs/rest';
-import { RESTPostAPIApplicationCommandsJSONBody } from 'discord-api-types/v9';
+import {
+    RESTPostAPIApplicationCommandsJSONBody,
+    RESTPostAPIChatInputApplicationCommandsJSONBody,
+} from 'discord-api-types/v9';
 import { APIApplicationCommandOption, Routes } from 'discord-api-types/v10';
 import { Bot } from '../interfaces/Bot';
 import { logger } from './logger';
@@ -53,12 +56,6 @@ export const registerCommands = async (bot: Bot): Promise<boolean> => {
                     process.env.DISCORD_GUILD as string
                 ),
                 { body: commandData }
-            );
-            const data = await rest.get(
-                Routes.applicationGuildCommands(
-                    '992706973965484082',
-                    '136521436868116481'
-                )
             );
         }
         return true;

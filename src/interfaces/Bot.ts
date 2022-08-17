@@ -12,16 +12,6 @@ export interface Bot extends Client {
         id: string;
         owner: string;
     };
-    defaultSettings: {
-        logChannel: string;
-        adminRole: string;
-        modRole: string;
-        systemNotice: string;
-        roleSelectionChannel: {
-            channel: string;
-            id: string;
-        };
-    };
     commands: Command[];
     contexts: Context[];
     voiceManager: Voice[];
