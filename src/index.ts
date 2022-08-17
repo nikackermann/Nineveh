@@ -1,24 +1,26 @@
-import { ActivityType, Client } from 'discord.js';
+import { Client } from 'discord.js';
 import { Intents } from './config';
 import { logger } from './utils/logger';
-import dotenv from 'dotenv';
+import loggert from './utils/tslog';
 import { loadCommands } from './utils/loadCommands';
 import { Bot } from './interfaces/Bot';
 import { loadContexts } from './utils/loadContexts';
 import { registerCommands } from './utils/registerCommands';
 import { handleEvents } from './events/_handleEvents';
-import { interactionCreate } from './events/interactionCreate';
 import { loadSelects } from './utils/loadSelects';
+import { DefaultSettings } from './config';
+import dotenv from 'dotenv';
 dotenv.config();
 
 /**
  * @description Initializes the bot.
  */
 const init = async () => {
+    loggert.info('This is a test');
     const client = new Client({
         intents: Intents,
     }) as Bot;
-
+    client.defaultSettings = DefaultSettings;
     /**
      * @description Loads all commands.
      */
