@@ -4,9 +4,11 @@ export const embed = new EmbedBuilder()
     .setColor('#1e2124')
     .setTitle('Class Role Selection')
     .setDescription(
-        'Select class discussion channel roles you would like to join'
+        'Select which class discussion channel roles you would like to join.'
     )
-    .setFooter({ text: 'Multiple class selection are allowed' });
+    .setFooter({
+        text: 'You can select multiple class roles from the dropdown.',
+    });
 
 export const row = new ActionRowBuilder<SelectMenuBuilder>().addComponents(
     new SelectMenuBuilder()

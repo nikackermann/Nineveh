@@ -1,16 +1,20 @@
-import { GatewayIntentBits } from "discord.js";
+import { GatewayIntentBits } from 'discord.js';
 
 export const Intents: GatewayIntentBits[] = [
-  GatewayIntentBits.Guilds,
-  GatewayIntentBits.GuildBans,
-  GatewayIntentBits.DirectMessages,
-  GatewayIntentBits.GuildMessages,
-  GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildBans,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildPresences,
 ];
 
 export const DefaultSettings = {
-  modLogChannel: "csb-log",
-  modRole: "Council",
-  adminRole: "Leadership",
-  systemNotice: "true",
+    logChannel: 'nineveh-logs',
+    adminRole: 'Leadership',
+    modRole: 'Council',
+    systemNotice: 'true',
+    roleSelectionChannel: {
+        channel: 'role-selection',
+        id: '994468706438610975',
+    },
 };
