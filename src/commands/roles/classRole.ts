@@ -15,7 +15,10 @@ export const classRole: Command = {
             Bot.defaultSettings.roleSelectionChannel.id
         ) as TextChannel;
         const file = new AttachmentBuilder(
-            'https://cdn.discordapp.com/attachments/993870193367461918/1009449092109308004/class-roles.gif'
+            'https://cdn.discordapp.com/attachments/993870193367461918/1009449092109308004/class-roles.gif',
+            {
+                name: 'class-roles.gif',
+            }
         );
         await channel.send({
             embeds: [embed],
